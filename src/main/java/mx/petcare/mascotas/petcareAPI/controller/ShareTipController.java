@@ -51,7 +51,7 @@ public class ShareTipController {
      * List<ShareTip> shareTip = service.getAllPagination(page, pageSize);
      * return shareTip;
      * }
-     */
+     *//* 
      @GetMapping(value = "/pagination", params = { "page", "pagesize" })
     public List<ShareTip> getAllPagination(
             @RequestParam(value = "page", defaultValue = "0") int page,
